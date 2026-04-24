@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding-bottom: 100px;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+.hero {
+    height: 40vh;
+    background: url('https://cimacan.desa.id/assets/front/css/images/latar_website.jpg?v2fea19cb8b4f08ffe6b24e38cc2e0829');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.trip-card {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.trip-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 60vh;
+    object-fit: cover;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card h5 {
+    color: red;
+}
+
+footer {
+    background-color: rgb(43, 42, 42);
+    padding: 8px;
+    font-size: 80%;
+}

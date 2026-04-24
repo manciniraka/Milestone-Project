@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Navigation Bar -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-black fw-bold" href="index.html">TripinVille</a>
+            <div>
+                <a class="nav-link d-inline text-black" href="article.html">Articles</a>
+                <a class="nav-link d-inline text-black" href="#">Merchandise</a>
+                <a class="nav-link d-inline text-black" href="faq.html">FAQ</a>
+                <a class="nav-link d-inline text-black" href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="overlay">
+        <h2>Trips in Villages</h2>
+    </div>
+</section>
+
+<section class="container mt-5 mb-5">
+    <div class="row g-4" id="trip-list"></div>
+</section>
+
+<!-- Footer -->
+<footer class="footer fixed-bottom">
+    <div class="container d-block text-center text-white">
+        <p>© 2026 TripinVille</p>
+        <a class="text-white" href="contact.html">Contact Us</a>
+    </div>
+</footer>
+
+<script src="trip.js"></script>
+</body>
+</html>
