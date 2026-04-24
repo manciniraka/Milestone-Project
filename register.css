@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: url('https://zjglidcehtsqqqhbdxyp.supabase.co/storage/v1/object/public/atourin/images/destination/pangandaran/green-canyon-profile1639023683.png?x-image-process=image/resize,p_100,limit_1/imageslim');
+    background-size: cover;
+    }
+
+.bg-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+.left-side {
+    display: flex;
+    padding-top: 150px;
+}
+
+.row {
+    align-items: flex-start !important;
+}
+
+.left-side .overlay {
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 600px;
+}
+
+.card {
+    max-width: 420px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.row {
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(43, 42, 42);
+    padding: 8px;
+    font-size: 80%;
+}

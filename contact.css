@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: url('https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/02/04/b9a441ee-a409-4897-b202-d20ddf1e558f-1612405052139-64d56f2449877ca5d518b0924113893f.jpg');
+    background-size: cover;
+    }
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.contact-section {
+    height: 100vh;
+}
+
+.btn-custom {
+    background-color: rgb(57, 56, 56);
+    color: #fff;
+}
+
+footer {
+    background-color: rgb(43, 42, 42);
+    padding: 8px;
+    font-size: 80%;
+}
